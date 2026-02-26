@@ -1,16 +1,53 @@
-# React + Vite
+# fort reno
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+`fort reno` is a simple React based livecoding framework built on top of [Shaders](https://shaders.com/docs/guide), using the declarative, component-based syntax, GPU-accelerated visuals that are built to stay lightweight, fast to tweak, and reliable during performance.
 
-Currently, two official plugins are available:
+## What It Is
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- A minimal environment for live visual coding
+- A quick way to test and layer shader-based scenes
+- A performance tool designed for real-time improvisation
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clone the repo.
+2. Install dependencies:
 
-## Expanding the ESLint configuration
+```bash
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Run in development mode:
+
+```bash
+npm run dev
+```
+
+4. Open the local URL shown in your terminal.
+
+## Basic Example
+
+Update `src/App.jsx` to the following:
+
+```jsx 
+
+import { Shader, Aurora, Godrays } from "shaders/react";
+
+export default function App() {
+  return (
+    <div style={{ width: "100vw", height: "100vh", background: "#05070d" }}>
+      <Shader>
+        <Aurora intensity={80} />
+        <Godrays intensity={0.8} />
+      </Shader>
+    </div>
+  );
+}
+```
+
+## Example Performance Workflow
+
+1. Start with base scene.
+2. Keep key parameters mapped for fast edits (intensity, speed, color, density).
+3. Add additional components listed in the [documention for Shaders](https://shaders.com/docs/components). 
+4. Build transitions by gradually changing one or two parameters at a time.
