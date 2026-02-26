@@ -44,6 +44,11 @@ export default function App() {
 }
 ```
 
+You should see something similar to the following: 
+
+<img width="1721" height="862" alt="Screenshot 2026-02-26 at 2 20 58 PM" src="https://github.com/user-attachments/assets/a38b847e-5c17-41dd-a16c-f68c0f9e7602" />
+
+
 ## Example Performance Workflow
 
 1. Start with base scene.
