@@ -30,15 +30,14 @@ npm run dev
 Update `src/App.jsx` to the following:
 
 ```jsx 
-
 import { Shader, Aurora, Godrays } from "shaders/react";
 
 export default function App() {
   return (
     <div style={{ width: "100vw", height: "100vh", background: "#05070d" }}>
       <Shader>
-        <Aurora intensity={80} />
-        <Godrays intensity={0.8} />
+        <Aurora intensity={80} speed={3} />
+        <Godrays intensity={0.8} speed={5} />
       </Shader>
     </div>
   );
