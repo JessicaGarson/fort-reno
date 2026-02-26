@@ -43,6 +43,13 @@ export default function App() {
   );
 }
 ```
+In your terminal, run:
+
+```bash
+npm run dev
+```
+
+Visit `http://localhost:5173`
 
 You should see something similar to the following: 
 
