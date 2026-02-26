@@ -1,6 +1,6 @@
 # fort reno
 
-`fort reno` is a simple React based livecoding framework built on top of [Shaders](https://shaders.com/docs/guide), using the declarative, component-based syntax, GPU-accelerated visuals that are built to stay lightweight, fast to tweak, and reliable during performance.
+`fort reno` is a simple React based livecoding framework built on top of [Shaders](https://shaders.com/docs/guide), using the declarative, component-based syntax, GPU-accelerated visuals that are built to stay lightweight, fast to tweak, and reliable during performance. Named after the historic DC DIY summer concert series.
 
 ## What It Is
 
