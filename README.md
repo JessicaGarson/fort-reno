@@ -55,6 +55,25 @@ You should see something similar to the following:
 
 <img width="1721" height="862" alt="Screenshot 2026-02-26 at 2 20 58 PM" src="https://github.com/user-attachments/assets/a38b847e-5c17-41dd-a16c-f68c0f9e7602" />
 
+## Audio reactivity example
+
+```jsx
+import { Shader, Aurora, Godrays } from "shaders/react";
+import { useAudioParams } from "./useAudioParams";
+
+export default function App() {
+  const { speed, intensity, waviness, rays } = useAudioParams();
+
+  return (
+    <div style={{ width: "100vw", height: "100vh", background: "#05070d" }}>
+      <Shader>
+        <Aurora speed={speed} intensity={intensity} waviness={waviness} />
+        <Godrays intensity={rays} />
+      </Shader>
+    </div>
+  );
+}
+```
 
 ## Example Performance Workflow
 
