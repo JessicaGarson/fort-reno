@@ -57,6 +57,8 @@ You should see something similar to the following:
 
 ## Audio reactivity example
 
+Update `src/App.jsx` to the following:
+
 ```jsx
 import { Shader, Aurora, Godrays } from "shaders/react";
 import { useAudioParams } from "./useAudioParams";
