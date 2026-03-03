@@ -77,6 +77,9 @@ export default function App() {
 }
 ```
 
+## More examples 
+More examples can be found [in the examples folder](examples).
+
 ## Example Performance Workflow
 
 1. Start with base scene.
