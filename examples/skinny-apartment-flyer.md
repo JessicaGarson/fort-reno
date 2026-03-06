@@ -5,6 +5,8 @@
 ![fort-reno](https://github.com/user-attachments/assets/8506b193-cd79-4a7a-8a06-2944df3956c6)
 
 ## Code
+Update `src/App.jsx` to the following:
+
 ```jsx
 import { Shader, Aurora } from "shaders/react";
 
