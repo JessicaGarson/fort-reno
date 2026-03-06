@@ -1,7 +1,7 @@
 # Skinny Apartment Show Poster Example 
 ![Painted Faces](https://github.com/user-attachments/assets/05fcf252-07ea-44d6-8d15-8437efec0003)
 
-## The background 
+## Background image
 ![fort-reno](https://github.com/user-attachments/assets/8506b193-cd79-4a7a-8a06-2944df3956c6)
 
 ## Code
