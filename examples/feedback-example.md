@@ -1,4 +1,4 @@
-# Feedback example
+# Feedback Example
 ![Feedback](https://github.com/user-attachments/assets/a54419d9-4d4b-453f-8d1a-ce342d026b97)
 
 ## Code
@@ -38,4 +38,5 @@ export default function App() {
   );
 }
 ```
+
 
