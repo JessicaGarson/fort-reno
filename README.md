@@ -84,5 +84,5 @@ More examples can be found [in the examples folder](examples).
 
 1. Start with base scene.
 2. Keep key parameters mapped for fast edits (intensity, speed, color, density).
-3. Add additional components listed in the [documention for Shaders](https://shaders.com/docs/components). 
+3. Add additional components listed in the [documentation for Shaders](https://shaders.com/docs/components). 
 4. Build transitions by gradually changing one or two parameters at a time.
