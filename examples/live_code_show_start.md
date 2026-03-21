@@ -1,3 +1,8 @@
+# Livecode NYC show start
+<img width="1705" height="873" alt="Screenshot 2026-03-21 at 3 19 10 PM" src="https://github.com/user-attachments/assets/356418d7-cc8d-427e-a1fe-53f009b12f98" />
+
+## Code 
+```js
 import { Shader, Plasma,  } from "shaders/react";
 import { useAudioParams } from "./useAudioParams";
 
@@ -30,3 +35,4 @@ export default function App() {
     </div>
   );
 }
+```
